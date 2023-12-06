@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+    int a,b,sum,diff,multiple,remainder;
+    printf("enter the value of a+b");
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    printf("sum=%d/t",sum);
+    diff=a-b;
+    printf("diff=%d/t",diff);
+    multiple=a*b;
+    printf("multiple=%d/t",multiple);
+    remainder=a%b;
+    printf("remainder=%d/t",remainder);
+    return 0;
+}
